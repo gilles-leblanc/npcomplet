@@ -1,0 +1,39 @@
+$header-height: 41px;
+$np-complet-green: #98cb60;
+$np-complet-grey: #EFEFEF;
+
+.header {
+  background-color: $np-complet-grey;
+  padding: 6px 5% 2px 5%;
+  height: $header-height;
+  width: 90%;
+  overflow: auto;
+}
+
+img.logo {
+  float:left;
+}
+
+#language-selector {
+  font-family: 'DejaVuSans', sans-serif;
+  float: right;
+  display: inline-block;
+  line-height: $header-height;
+  vertical-align: middle;
+}
+
+#language-selector > a:link {
+  color: $np-complet-green;
+}
+
+#language-selector > a:visited {
+  color: $np-complet-green;
+}
+
+#language-selector > a.active {
+  font-weight: bold;
+  color: black;
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+}

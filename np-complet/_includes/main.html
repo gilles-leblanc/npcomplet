@@ -1,0 +1,33 @@
+{% include header.html %}
+
+<div class="splash first">
+  <div class="hero">
+    <h2>{{ locale.hero-sub }}</h2>
+    <h1>{{ locale.hero }}</h1>
+    <h1>{{ locale.hero2 }}</h1>
+    <a href="mailto:info@np-complet.com" class="contact-button">{{ locale.contact-me }}</a>
+  </div>
+</div>
+
+<div class="info">
+  <div class="action-box left">
+    <h3><i class="fa fa-question fa-3x"></i> {{ locale.action1 }}</h3>
+    {{ locale.actiontext1 }}
+  </div>
+  <div class="action-box right">
+    <h3><i class="fa fa-road fa-3x"></i> {{ locale.action2 }}</h3>
+    {{ locale.actiontext2 }}
+  </div>
+  <div class="action-box left last">
+    <h3><i class="fa fa-desktop fa-3x"></i> {{ locale.action3 }}</h3>
+    {{ locale.actiontext3 }}
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div class="splash second">
+
+</div>
+
+{% include footer.html %}

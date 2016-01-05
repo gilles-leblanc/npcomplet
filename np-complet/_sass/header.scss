@@ -14,6 +14,13 @@ img.logo {
   float:left;
 }
 
+@media (max-width: 380px) {
+  img.logo {
+    width: 135px;
+    height: 27px;
+  }
+}
+
 #language-selector {
   font-family: 'DejaVuSans', sans-serif;
   float: right;

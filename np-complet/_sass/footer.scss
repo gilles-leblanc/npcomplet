@@ -20,6 +20,12 @@
   margin-top : auto;
 }
 
+@media (max-width: 375px) {
+  #contact-info {
+    display: none;
+  }
+}
+
 #contact-info > a {
   color: white;
 }

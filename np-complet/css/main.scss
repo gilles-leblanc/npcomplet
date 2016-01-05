@@ -33,6 +33,25 @@ body {
   clear: left;
 }
 
+.tooltip {
+  cursor: default;
+  display: inline;
+  position: relative;
+}
+
+.tooltip:hover:after {
+  background: #333;
+  background: rgba(0,0,0,.8);
+  border-radius: 0.2em;
+  color: #fff;
+  content: attr(title);
+  font-size: 20%;
+  left: 20%;
+  padding: 0.3em 0.9em;
+  position: absolute;
+  width: 5em;
+}
+
 .splash {
   color: white;
   text-align: center;
@@ -48,8 +67,11 @@ body {
 }
 
 .splash.second {
-  background-color: $np-complet-green;
-  min-height: calc(33vh);
+  align-items: center;
+  background-image: url(../img/splash2.jpg);
+  display: flex;
+  height: 50vh;
+  justify-content: center;
 }
 
 .hero {
@@ -99,22 +121,28 @@ body {
               color 0.3s ease-in;
 }
 
+.contact-button-large {
+  margin-left: 0;
+  font-size: 160%;
+}
+
 .info {
   min-height: 50vh;
 }
 
-$action-margin: 5%;
+$default-margin: 5%;
+$half-margin: $default-margin / 2;
 $action-color: #58a;
 $cutout-value: 1.5em;
 
 .action-box {
   border: 1px solid #DEDEDE;
   border-radius: 0.3em;
-  clear: both;
   font-family: 'DejaVuSans', Verdana, sans-serif;
+  height: 15em;
   max-width: 650px;
-  margin-top: $action-margin / 2;
-  padding: $action-margin / 2;
+  margin-top: $half-margin;
+  padding: $half-margin;
   width: 100%;
 }
 
@@ -125,14 +153,61 @@ $cutout-value: 1.5em;
 
 .action-box.left {
   float: left;
-  margin-left: $action-margin;
+  margin-left: $default-margin;
 }
 
 .action-box.right {
   float: right;
-  margin-right: $action-margin;
+  margin-right: $default-margin;
 }
 
 .action-box.last {
-  margin-bottom: $action-margin / 2;
+  clear: both;
+  margin-bottom: $half-margin;
+}
+
+.devicon {
+  display: inline-block;
+  font-size: 500%;
+  padding-bottom: 0.5em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+}
+
+.skill-bar {
+  color: white;
+  background-color: $np-complet-green;
+  min-height: 33vh;
+  padding: 0 0 0 $default-margin;
+}
+
+.me-box {
+  min-height: 33vh;
+  font-family: 'DejaVuSans', Verdana, sans-serif;
+  padding-left: $half-margin;
+  padding-right: $half-margin;
+}
+
+.me-box > p {
+  padding-bottom: 0.5em;
+}
+
+.me-box > h1 {
+  font-family: 'FiraSansMedium', Verdana, sans-serif;
+  padding-top: $half-margin;
+}
+
+.portrait {
+  border-radius: 50%;
+  float: left;
+  padding: $half-margin;
+}
+
+.social {
+  color: black;
+  padding-right: 0.3em;
+}
+
+.social:visited {
+  color: black;
 }

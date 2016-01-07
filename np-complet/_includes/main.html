@@ -49,16 +49,20 @@
 </div>
 
 <div class="me-box">
-  <img class="portrait" src="{{ site.baseurl }}/img/me.jpg">
-  <h1>Gilles Leblanc</h1>
-  <p>
-    {{ locale.about-me }}
-  </p>
-  <p>
-    <a class="social" href={{ locale.linkedin-profile }}><i class="fa fa-linkedin-square fa-2x"></i></a>
-    <a class="social" href="https://gillesleblanc.wordpress.com/"><i class="fa fa-wordpress fa-2x"></i></a>
-    <a class="social" href="https://github.com/gilles-leblanc"><i class="fa fa-github fa-2x"></i></a>
-  </p>
+  <div class="portrait-box">
+    <img class="portrait" src="{{ site.baseurl }}/img/me.jpg">
+  </div>
+  <div class="bio-box">
+    <h1>Gilles Leblanc</h1>
+    <p>
+      {{ locale.about-me }}
+    </p>
+    <p>
+      <a class="social" href={{ locale.linkedin-profile }}><i class="fa fa-linkedin-square fa-2x"></i></a>
+      <a class="social" href="https://gillesleblanc.wordpress.com/"><i class="fa fa-wordpress fa-2x"></i></a>
+      <a class="social" href="https://github.com/gilles-leblanc"><i class="fa fa-github fa-2x"></i></a>
+    </p>
+  </div>
 </div>
 
 {% include footer.html %}

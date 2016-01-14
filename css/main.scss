@@ -69,6 +69,8 @@ body {
 .splash.second {
   align-items: center;
   background-image: url(../img/splash2.jpg);
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   height: 50vh;
   justify-content: center;
@@ -227,6 +229,8 @@ $cutout-value: 1.5em;
 
 .me-box {
   align-items: center;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   height: 20em;
   font-family: 'DejaVuSans', Verdana, sans-serif;

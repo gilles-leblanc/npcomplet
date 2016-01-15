@@ -72,6 +72,7 @@ body {
   display: flex;
   height: 50vh;
   justify-content: center;
+  padding-top: 10%;
 }
 
 .hero {
@@ -216,7 +217,6 @@ $cutout-value: 1.5em;
   background-color: $np-complet-green;
   min-height: 33vh;
   padding: 0 0 0 $default-margin;
-  margin-right: -30px;
 }
 
 @media (max-width: 520px) {

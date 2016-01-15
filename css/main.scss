@@ -66,13 +66,26 @@ body {
   min-height: calc(100vh - 49px);
 }
 
+// ugh ! flexbox fallbacks !
 .splash.second {
-  align-items: center;
-  background-image: url(../img/splash2.jpg);
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
-  height: 50vh;
+
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
-  padding-top: 10%;
+
+  background-image: url(../img/splash2.jpg);
+  height: 50vh;
 }
 
 .hero {

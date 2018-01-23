@@ -20,8 +20,8 @@ $np-complet-grey: #EFEFEF;
 }
 
 @font-face {
-  font-family: 'DejaVuSans';
-  src: url("../fonts/DejaVuSans.ttf");
+  font-family: 'Vera';
+  src: url("../fonts/Vera.ttf");
 }
 
 body {
@@ -176,7 +176,7 @@ $cutout-value: 1.5em;
 .action-box {
   border: 1px solid #DEDEDE;
   border-radius: 0.3em;
-  font-family: 'DejaVuSans', Verdana, sans-serif;
+  font-family: 'Vera', Verdana, sans-serif;
   max-width: 650px;
   margin-top: $half-margin;
   min-height: 16em;
@@ -242,7 +242,7 @@ $cutout-value: 1.5em;
   align-items: center;
   display: flex;
   height: 20em;
-  font-family: 'DejaVuSans', Verdana, sans-serif;
+  font-family: 'Vera', Verdana, sans-serif;
   padding-left: $half-margin;
   padding-right: $half-margin;
 }

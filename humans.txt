@@ -2,6 +2,4 @@ Made by Gilles Leblanc.
 Using Atom, Jekyll and Sass.
 Just for kicks made with no CSS frameworks, templates, boilerplates, JavaScript, etc.
 Splash images from https://unsplash.com/
-Picture of me taken by Maxime Plante (Calydus).
 
-Peace!

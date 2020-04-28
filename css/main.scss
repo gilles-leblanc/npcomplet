@@ -66,13 +66,6 @@ body {
   min-height: calc(100vh - 49px);
 }
 
-.contact-bar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 2em;
-}
-
 .hero {
   text-align: left;
   position: absolute;
@@ -143,10 +136,9 @@ body {
   }
 }
 
-.contact-button-large {
-  display: inline-block;
+.contact-button-bio {
+  background-color: #333;
   margin-left: 0;
-  font-size: 160%;
 }
 
 .info {

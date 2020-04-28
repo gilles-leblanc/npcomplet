@@ -10,11 +10,6 @@ $np-complet-green: #98cb60;
 $np-complet-grey: #EFEFEF;
 
 @font-face {
-  font-family: 'FiraSansMedium';
-  src: url("../fonts/FiraSans-Medium.woff");
-}
-
-@font-face {
   font-family: 'RussoOne-Regular';
   src: url("../fonts/RussoOne-Regular.ttf");
 }
@@ -124,7 +119,7 @@ body {
   background-color: rgba(0, 0, 0, 0.13);
   display: inline-block;
   font-size: 120%;
-  font-family: 'FiraSansMedium', Verdana, sans-serif;
+  font-family: 'RussoOne-Regular', Verdana, sans-serif;
   margin-left: 1.3em;
   padding: 0.5em;
   text-decoration: none;
@@ -176,7 +171,7 @@ $cutout-value: 1.5em;
 }
 
 .action-box > h3 {
-  font-family: 'FiraSansMedium', Verdana, sans-serif;
+  font-family: 'Vera', Verdana, sans-serif;
   font-size: 130%;
 }
 
@@ -244,7 +239,7 @@ $cutout-value: 1.5em;
 }
 
 .bio-box > h1 {
-  font-family: 'FiraSansMedium', Verdana, sans-serif;
+  font-family: 'Vera', Verdana, sans-serif;
 }
 
 .portrait {

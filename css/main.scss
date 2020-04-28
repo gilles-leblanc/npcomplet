@@ -63,6 +63,9 @@ body {
 
 .splash.first {
   background-image: url(../img/splash.webp);
+  color: #98cb60 !important;
+  background-color: #27a920 !important;
+  background: repeating-linear-gradient(45deg, transparent, transparent 25px, currentColor 25px, currentColor calc(2 * 25px));
   min-height: calc(100vh - 49px);
 }
 

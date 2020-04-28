@@ -15,6 +15,11 @@ $np-complet-grey: #EFEFEF;
 }
 
 @font-face {
+  font-family: 'RussoOne-Regular';
+  src: url("../fonts/RussoOne-Regular.ttf");
+}
+
+@font-face {
   font-family: 'NotJustGroovy';
   src: url("../fonts/NotJustGroovy.ttf");
 }
@@ -82,7 +87,7 @@ body {
 
 .hero > h1 {
   color: white;
-  font-family: 'FiraSansMedium', Verdana, sans-serif;
+  font-family: 'RussoOne-Regular', Verdana, sans-serif;
   font-size: 300%;
   margin: 0.2em 0.5em;
 }

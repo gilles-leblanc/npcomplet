@@ -66,12 +66,11 @@ body {
   min-height: calc(100vh - 49px);
 }
 
-.splash.second {
+.contact-bar {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../img/splash2.jpg);
-  height: 50vh;
+  height: 2em;
 }
 
 .hero {
